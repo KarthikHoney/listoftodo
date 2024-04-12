@@ -51,7 +51,7 @@ class Todo extends Component{
                 <button className="button" onClick={this.onClickEnterOnAddButton}>Adding Todos</button>
                 <div>
   {findData.length === 0 ? (
-    <p>No data</p>
+    <p className="para">No data</p>
   ) : (
     <ol style={{ listStyleType:"unset"}}>
       {findData.map(each => (
