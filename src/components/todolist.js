@@ -53,11 +53,11 @@ class Todo extends Component{
   {findData.length === 0 ? (
     <p className="para">No data</p>
   ) : (
-    <ol style={{ listStyleType:"unset"}}>
+    <ol style={{listStyleType:"none"}}>
       {findData.map(each => (
         <div className="listContainer" key={each.id}>
           <li className="list">{each.text}</li>
-          <li className="list">
+          <li>
             <button className="buttonD" onClick={() => this.onClickDeleteButton(each.id)}>
               <i className="bi bi-trash2-fill"></i>
             </button>
