@@ -13,6 +13,11 @@
     color: beige;
     font-size: 30px;
 }
+.para{
+    font-family: "roboto";
+    color: beige;
+    font-size: 20px;
+}
 
 .search{
     border-radius: 29px;
@@ -20,18 +25,17 @@
     background-color: black;
     color: whitesmoke;
     border: 1px solid aqua;
-    box-shadow: 2px 2px 2px 2px;
 
 }
 
 .buttonD{
-    background-color: blue;
-    border: 2px solid rgb(62, 63, 63);
     margin-left: 5px;
-    border-radius: 5px;
-    font-family: "roboto";
-    color: beige;
+    border-radius: none;
+    color: rgb(7, 7, 7);
     cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
 }
 /* .list{
     display: flex;
@@ -46,7 +50,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style-type: none;
 }
 .container{
     background-image: url("https://wallpapers.com/images/hd/stone-and-yellow-butterfly-painting-gpes6kz2371mm2ko.webp");
@@ -75,6 +78,14 @@
 .list{
     margin: 5px;
     padding: 5px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+    font-family: "roboto";
 }
 
 
